@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+} */
+
+/* Navbar link */
+a {
+  color: #858a8f;
+  text-decoration: none;
+}
+
+.getstarted {
+  margin-right: 3rem;
+}
+
+.getstarted button {
+  list-style: none;
+  background: #0176ff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.getstarted a {
+  color: #ffffff;
+}
+
+/* for arrow down icon in navbar */
+.f-solid,
+.fa-angle-down {
+  color: #858a8f;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin: 7px;
+}
+
+/* logo */
+
+.logo {
+  margin-left: 60px;
+}
+
+/* for slack logo */
+
+.slack-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.coverdescription {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.covertext {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #333333;
+}
+
+/* for cover content */
+.cover-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.covertext-two {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #858a8f;
+}
+
+/* for cover background div */
+
+.cover-bgSection {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  width: 100%;
+}
+
+/* for content : card*/
+
+.card {
+  display: flex;
+
+  justify-content: center;
+  width: 424px;
+  height: 324px;
+  /* border: #F5F6FA 2px; */
+  border: solid 2px #f5f6fa;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.card p {
+  margin: 0;
+  padding: 6px;
+  font-size: 20px;
+}
+
+.card-detail {
+  color: #858a8f;
+  font-size: 20px;
+}
+
+.col1-card-detail {
+  color: #333333;
+}
+
+.column {
+  margin: 22px;
+  /* height: 20px; */
+  margin-top: 50px;
+}
+
+/* company detail */
+
+.Content {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 765px;
+  /* height: 458px; */
+  margin-left: 150px;
+}
+
+.company-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  color: #858a8f;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 764px;
+  height: 140px;
+  font: Inter;
+}
+
+.company-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 669px;
+  margin: 20px 0;
+  /* height: 96px; */
+}
+
+/* for platform */
+.platforms {
+  top: 2013.54px;
+  left: 606px;
+  font: Inter;
+  font-weight: 500;
+  line-height: 35px;
+  color: #858a8f;
+  font-size: 20px;
+}
+
+.platforms-slack {
+  width: 743px;
+  height: 249px;
+  margin-top: 10px;
+  left: 606px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #858a8f;
+}
+
+/* for platform image */
+
+cover-bgSection2 {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.platforms-slack-2 {
+  margin-top: 70px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  color: #858a8f;
+}
+
+/* for Business model */
+
+.business-description {
+  width: 756px;
+  height: 245px;
+  left: 605px;
+  color: #858a8f;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 15px;
+}
+
+/* for footer  */
+
+.footersection {
+  margin-top: 100px;
+}
+
+.footercontainer {
+  /* width: 1440px;
+  height: 604px; */
+  left: 9px;
+  display: flex;
+}
+
+#imgfooter {
+  width: 150px;
+}
+
+.footercompanydetail {
+  width: 282px;
+  height: 110px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #858a8f;
+}
+
+.footercontent {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #858a8f;
+  margin-bottom: 11px;
+  margin-top: 20px;
+}
+
+.footer-two {
+  display: flex;
+  flex-flow: row;
+  gap: 192px;
+  width: 100%;
+  justify-content: center;
+}
+
+.socialmedia-list {
+  display: flex;
+  justify-content: start;
+  margin-top: 15px;
+}
+
+.footerheading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.logofooter {
+  margin-left: 100px;
+}
+
+/* for copyright section */
+
+.copyrightdetail {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #898a8e;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/* for dropdown menu */
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li {
+  position: relative;
+  margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.menu a {
+  text-decoration: none;
+  color:#858A8F;
+  display: flex;
+  align-items: center;
+}
+
+.menu i {
+  margin-left: 5px; /* Adjust the spacing between the text and icon */
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 10px;
+}
+
+
+.column a {
+
+  color:#377DFF;
+}
