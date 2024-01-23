@@ -303,6 +303,7 @@ cover-bgSection2 {
   display: flex;
   justify-content: start;
   margin-top: 15px;
+  gap: 9px;
 }
 
 .footerheading {
